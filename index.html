@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+        
+        body, html, * {
+            font-family: "Hanken Grotesk";
+        }
+        
+        cafe {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            background: -webkit-linear-gradient(left, #f54242, #7bf542, #4290f5);
+            background: linear-gradient(to right, #f54242, #7bf542, #4290f5);
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-size: 200% 200%;
+            animation: bebra 10s ease infinite;
+            font-size: 90px;
+            padding-top: 50%;
+        }
+        
+        @keyframes bebra {
+            0% {background-position: 0% 50%}
+            50% {background-position: 100% 50%}
+            100% {background-position: 0% 50%}
+        }
+        
+    </style>
+</head>
+
+<body>
+    <cafe>Ra1nDev</cafe>
+</body>
+</html>
+
