@@ -208,8 +208,8 @@ footer {
 }
 
 input[type="checkbox"] {
- height: 1.7rem;
- width: 1.7rem;
+ height: 1rem;
+ width: 1rem;
  margin: 5px;
  display: inline-block;
  appearance: none;
